@@ -6,6 +6,7 @@
 
     <groupId>gitHubLearning</groupId>
     <artifactId>gitHubLearning</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
 
     <developers>
@@ -16,4 +17,8 @@
             <timezone>4</timezone>
         </developer>
     </developers>
+
+    <modules>
+        <module>xslt</module>
+    </modules>
 </project>

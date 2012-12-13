@@ -9,8 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-
     <artifactId>xslt</artifactId>
 
-
+    <modules>
+        <module>saxon</module>
+    </modules>
 </project>
