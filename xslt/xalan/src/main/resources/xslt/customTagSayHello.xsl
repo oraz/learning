@@ -1,5 +1,5 @@
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:tags="http://saxon.learning.TagLibrary"
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:tags="xalan://xalan.learning.TagLibrary"
                 extension-element-prefixes="tags">
 
     <xsl:output method="text"/>
