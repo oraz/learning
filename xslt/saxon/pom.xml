@@ -24,6 +24,14 @@
             <artifactId>saxon</artifactId>
             <version>9.1.0.8</version>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
     </dependencies>
-
 </project>
