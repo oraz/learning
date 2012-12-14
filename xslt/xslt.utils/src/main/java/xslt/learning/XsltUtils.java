@@ -11,14 +11,13 @@ public class XsltUtils {
     }
 
     private static String transform(final Transformer transformer, final Source source) throws TransformerException {
-        final ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        transformer.transform(source, new StreamResult(baos));
-        return baos.toString();
+        final ByteArrayOutputStream result = new ByteArrayOutputStream();
+        transformer.transform(source, new StreamResult(result));
+        return result.toString();
     }
 
     private static Transformer transformer(final String xsltResource) throws TransformerConfigurationException {
-        final TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        final Templates templates = transformerFactory.newTemplates(new StreamSource(XsltUtils.class.getResource(xsltResource).getFile()));
-        return templates.newTransformer();
+        final Source xslt = new StreamSource(XsltUtils.class.getResource(xsltResource).getFile());
+        return TransformerFactory.newInstance().newTemplates(xslt).newTransformer();
     }
 }

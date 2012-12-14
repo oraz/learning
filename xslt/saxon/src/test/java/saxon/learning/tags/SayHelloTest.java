@@ -7,7 +7,7 @@ import javax.xml.transform.TransformerException;
 import static java.lang.String.format;
 import static org.apache.commons.lang.RandomStringUtils.randomAlphabetic;
 import static org.testng.Assert.assertEquals;
-import static xslt.learning.SourceUtils.fromString;
+import static xslt.learning.StringSource.fromString;
 import static xslt.learning.XsltUtils.transform;
 
 public class SayHelloTest {

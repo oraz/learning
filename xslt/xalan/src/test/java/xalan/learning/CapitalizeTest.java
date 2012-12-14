@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import javax.xml.transform.TransformerException;
 
 import static org.testng.Assert.assertEquals;
-import static xslt.learning.SourceUtils.fromString;
+import static xslt.learning.StringSource.fromString;
 import static xslt.learning.XsltUtils.transform;
 
 public class CapitalizeTest {
