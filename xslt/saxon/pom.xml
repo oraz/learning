@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>xslt</artifactId>
-        <groupId>gitHubLearning</groupId>
+        <groupId>public.learning</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -34,7 +34,7 @@
             <artifactId>commons-lang</artifactId>
         </dependency>
         <dependency>
-            <groupId>gitHubLearning</groupId>
+            <groupId>public.learning</groupId>
             <artifactId>xslt.utils</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
