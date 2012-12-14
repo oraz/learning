@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>xalan</artifactId>
-    <name>XSLT-Xalan-${project.version}.${project.packaging}</name>
+    <name>XSLT Xalan ${project.version}.${project.packaging}</name>
 
     <build>
         <resources>
