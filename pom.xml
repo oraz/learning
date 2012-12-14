@@ -6,6 +6,7 @@
 
     <groupId>public.learning</groupId>
     <artifactId>public.learning</artifactId>
+    <name>Public learning parent.${project.packaging}</name>
     <packaging>pom</packaging>
     <version>1.0</version>
 
